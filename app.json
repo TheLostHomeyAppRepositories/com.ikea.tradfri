@@ -404,9 +404,13 @@
         "manufacturerName": "IKEA of Sweden",
         "productId": [
           "TRADFRI bulb E27 opal 1000lm",
-          "TRADFRI bulb E27 W opal 1000lm"
+          "TRADFRI bulb E27 W opal 1000lm",
+          "TRADFRI bulb E27 WW clear 250lm"
         ],
-        "deviceId": 256,
+        "deviceId": [
+          256,
+          257
+        ],
         "profileId": [
           260,
           49246
