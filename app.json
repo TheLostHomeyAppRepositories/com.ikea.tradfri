@@ -125,7 +125,10 @@
           "TRADFRI bulb E26 WS�opal 980lm",
           "TRADFRI bulb E27 WS clear 950lm"
         ],
-        "deviceId": 544,
+        "deviceId": [
+          544,
+          268
+        ],
         "profileId": [
           260,
           49246
@@ -859,7 +862,7 @@
             "title": {
               "en": "Value",
               "nl": "Waarde",
-			  "de": "Wert" 
+			  "de": "Wert"
             },
             "example": 1
           }
