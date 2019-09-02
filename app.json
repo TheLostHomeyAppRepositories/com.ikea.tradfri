@@ -328,6 +328,81 @@
       ]
     },
     {
+      "id": "rgb_bulb_e14",
+      "name": {
+        "en": "RGB Bulb (E14)",
+        "nl": "RGB Lamp (E14)",
+        "de": "RGB-Birne (E14)"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "zigbee": {
+        "manufacturerName": "IKEA of Sweden",
+        "productId": [
+          "TRADFRI bulb E14 CWS opal 600lm"
+        ],
+        "deviceId": 512,
+        "profileId": [
+          49246
+        ],
+        "learnmode": {
+          "image": "/drivers/rgb_bulb_e14/assets/learnmode.svg",
+          "instruction": {
+            "en": "Toggle the bulb once to start pairing.\n\nIf pairing does not automatically start within 20 seconds, try resetting the bulb by toggling it 6 times as demonstrated by the animation, afterwards leave it turned on. It will flash twice to indicate it has been reset.",
+            "nl": "Zet de lamp één keer uit en weer aan.\n\nWordt de lamp niet automatisch toegevoegd binnen 20 seconden, probeer dan een reset uit te voeren door de lamp 6 keer uit en aan te zetten zoals de animatie laat zien, laat de lamp vervolgens aan staan. De lamp zal twee keer knipperen om aan te geven dat hij is gereset.",
+            "de": "Schalte die Birne einmal um, um sie zu koppeln.\n\nWenn das Koppeln innerhalb 20 Sekunden nicht automatisch startet, versuche, wie in der Animation demonstriert, die Birne durch 6-maliges Umschalten zurückzusetzen; schalte sie anschließend schnell ein. Sie blinkt zweimal, wenn sie zurückgesetzt wurde."
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/rgb_bulb_e14/assets/images/large.png",
+        "small": "/drivers/rgb_bulb_e14/assets/images/small.png"
+      },
+      "settings": [
+        {
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Dim duration",
+            "nl": "Dim duur",
+            "de": "Dimmdauer"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another. Note: this setting can be overriden by the duration value in a Flow Card.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander. Let op: deze instelling kan tijdelijk overschreven worden door de dim duur waarde in een Flow Card.",
+            "de": "Diese Einstellung bestimmt die Zeit in Sekunden, die für das Dimmen von einer auf die andere Stufe benötigt wird. Hinweis: diese Einstellung kann durch den Dauer-Wert in einer Flow-Karte überschrieben werden."
+          },
+          "value": 0,
+          "units": {
+            "en": "s",
+            "nl": "s",
+            "de": "s"
+          },
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
+        }
+      ]
+    },
+    {
       "id": "remote_rotating_dimmer",
       "name": {
         "en": "Rotating Dimmer",
