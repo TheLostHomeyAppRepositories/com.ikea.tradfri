@@ -698,8 +698,14 @@
       },
       "zigbee": {
         "manufacturerName": "IKEA of Sweden",
-        "productId": "TRADFRI bulb GU10 W 400lm",
-        "deviceId": 256,
+        "productId": [
+          "TRADFRI bulb GU10 W 400lm",
+          "TRADFRI bulb GU10 WW 400lm"
+        ],
+        "deviceId": [
+          256,
+          257
+        ],
         "profileId": [
           260,
           49246
