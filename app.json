@@ -372,8 +372,8 @@
         }
       },
       "images": {
-        "large": "/drivers/rgb_bulb_e14/assets/images/large.png",
-        "small": "/drivers/rgb_bulb_e14/assets/images/small.png"
+        "large": "/drivers/rgb_bulb_e14/assets/images/large.jpg",
+        "small": "/drivers/rgb_bulb_e14/assets/images/small.jpg"
       },
       "settings": [
         {
