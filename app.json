@@ -628,7 +628,8 @@
         "productId": [
           "TRADFRI transformer 10W",
           "TRADFRI transformer 30W",
-          "TRADFRI Driver 10W"
+          "TRADFRI Driver 10W",
+          "TRADFRI Driver 30W"
         ],
         "deviceId": 256,
         "profileId": [
