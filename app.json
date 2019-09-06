@@ -922,11 +922,6 @@
         "measure_battery",
         "windowcoverings_set"
       ],
-      "energy": {
-        "batteries": [
-          "OTHER"
-        ]
-      },
       "zigbee": {
         "manufacturerName": "IKEA of Sweden",
         "productId": [
