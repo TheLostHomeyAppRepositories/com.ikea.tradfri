@@ -12,7 +12,7 @@
   "category": [
     "lights"
   ],
-  "version": "1.4.1",
+  "version": "1.4.2",
   "compatibility": ">=3.0.0",
   "sdk": 2,
   "author": {
@@ -918,7 +918,7 @@
     {
       "id": "rollerblind_fyrtur",
       "name": {
-        "en": "Fyrtur Rollerblind",
+        "en": "Fyrtur Roller Blind",
         "nl": "Fyrtur Rolgordijn",
         "de": "Fyrtur Rollo"
       },
