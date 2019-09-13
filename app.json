@@ -12,7 +12,7 @@
   "category": [
     "lights"
   ],
-  "version": "1.4.2",
+  "version": "1.5.0",
   "compatibility": ">=3.0.0",
   "sdk": 2,
   "author": {
@@ -494,7 +494,8 @@
         "productId": [
           "TRADFRI bulb E27 opal 1000lm",
           "TRADFRI bulb E27 W opal 1000lm",
-          "TRADFRI bulb E27 WW clear 250lm"
+          "TRADFRI bulb E27 WW clear 250lm",
+          "TRADFRI bulb E27 WW 806lm"
         ],
         "deviceId": [
           256,
@@ -951,6 +952,44 @@
       "images": {
         "large": "/drivers/rollerblind_fyrtur/assets/images/large.jpg",
         "small": "/drivers/rollerblind_fyrtur/assets/images/small.jpg"
+      }
+    },
+    {
+      "id": "rollerblind_kadrilj",
+      "name": {
+        "en": "Kadrilj Roller Blind",
+        "nl": "Kadrilj Rolgordijn",
+        "de": "Kadrilj Rollo"
+      },
+      "class": "blinds",
+      "capabilities": [
+        "measure_battery",
+        "windowcoverings_set"
+      ],
+      "energy": {
+        "batteries": [
+          "OTHER"
+        ]
+      },
+      "zigbee": {
+        "manufacturerName": "IKEA of Sweden",
+        "productId": [
+          "KADRILJ roller blind"
+        ],
+        "deviceId": 514,
+        "profileId": 260,
+        "learnmode": {
+          "image": "/drivers/rollerblind_kadrilj/assets/learnmode.svg",
+          "instruction": {
+            "en": "Simultaneously press the up and down buttons on the roller blind until the LED starts blinking.\n\nNote: it can take 15-20 seconds before pairing starts, if the device does not pair within 15-20 seconds please try again.",
+            "nl": "Druk tegelijk de twee omhoog en omlaag knoppen op het rolgordijn in totdat de LED begint te knipperen.\n\nLet op: het kan 15-20 seconden duren voor het apparaat wordt gekoppeld, gebeurt dit niet binnen 15-20 seconden probeer het dan nog eens.",
+            "de": "Drücke gleichzeitig die Auf- und Ab-Tasten am Rollo, bis die LED zu blinken beginnt.\n\nHinweis: Es kann 15-20 Sekunden dauern, bis die Kopplung beginnt. Wenn das Gerät nicht innerhalb von 15-20 Sekunden koppelt, versuche es bitte erneut."
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/rollerblind_kadrilj/assets/images/large.jpg",
+        "small": "/drivers/rollerblind_kadrilj/assets/images/small.jpg"
       }
     }
   ],

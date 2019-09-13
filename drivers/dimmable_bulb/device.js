@@ -22,6 +22,12 @@ class DimmableBulb extends ZigBeeLightDevice {
 					usageOff: 0.5,
 					usageOn: 2.7
 				}
+			},
+			"TRADFRI bulb E27 WW 806lm": {
+				approximation: {
+					usageOff: 0.5,
+					usageOn: 8.9
+				}
 			}
 		}
 	}

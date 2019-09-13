@@ -2,7 +2,7 @@
 
 const ZigBeeLightDevice = require('homey-meshdriver').ZigBeeLightDevice;
 
-class DimmableBulb extends ZigBeeLightDevice {
+class DimmableBulbE14 extends ZigBeeLightDevice {
 	get energyMap() {
 		return {
 			'TRADFRI bulb E14 W op/ch 400lm': {
@@ -15,4 +15,4 @@ class DimmableBulb extends ZigBeeLightDevice {
 	}
 }
 
-module.exports = DimmableBulb;
+module.exports = DimmableBulbE14;
