@@ -3,6 +3,9 @@
 This app allows you to connect your IKEA Trådfri Devices to Homey
 
 ### Changelog
+Version 1.5.1
+* Added productId for 806lm E27 WS clear
+
 Version 1.5.0
 * Adds support for Energy
 
