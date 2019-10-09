@@ -14,6 +14,7 @@
   ],
   "version": "1.5.2",
   "compatibility": ">=3.0.0",
+  "brandColor": "#0b579e",
   "sdk": 2,
   "author": {
     "name": "Athom B.V.",
