@@ -3,6 +3,9 @@
 This app allows you to connect your IKEA Trådfri Devices to Homey
 
 ### Changelog
+Version 1.5.2
+* Fixed issue where Kadrilj/Fyrtur would not roll up completely
+
 Version 1.5.1
 * Added productId for 806lm E27 WS clear
 
