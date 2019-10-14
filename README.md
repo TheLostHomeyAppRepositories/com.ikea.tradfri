@@ -3,6 +3,9 @@
 This app allows you to connect your IKEA Trådfri Devices to Homey
 
 ### Changelog
+Version 1.5.3
+* Fixed Energy related issue
+
 Version 1.5.2
 * Fixed issue where Kadrilj/Fyrtur would not roll up completely
 
